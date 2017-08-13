@@ -1,0 +1,42 @@
+.circle-nav {
+  border-radius: 50%;
+  position: absolute;
+  transition: 0.7s;
+  color: rgba(250, 251, 231, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.circle-nav:hover {
+  transform: rotate(10deg);
+  color: rgba(250, 251, 231, 0.6);
+}
+
+#nav-profile {
+  height: 100px;
+  width: 100px;
+  background-color: #CC262A;
+  top: 35vh;
+  right: 35vw;
+  box-shadow: -3px -3px 6px rgba(204, 38, 42, 50);
+}
+
+#nav-projects {
+  height: 350px;
+  width: 350px;
+  background-color: #F2972D;
+  top: 40vh;
+  left: 10vw;
+  box-shadow: -3px -3px 6px rgba(242, 151, 45, 50);
+}
+
+#nav-contact {
+  height: 200px;
+  width: 200px;
+  background-color: #20244A;
+  bottom: 30vh;
+  right: 15vw;
+  box-shadow: -3px -3px 6px rgba(32, 36, 74, 50);
+}
