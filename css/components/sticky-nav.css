@@ -1,0 +1,37 @@
+.sticky-nav-container {
+  width: 5vw;
+  position: absolute;
+  top: 10%;
+  right: 0;
+}
+
+.sticky-nav {
+  width: 5vw;
+  max-width: 50px;
+  height: 5vw;
+  max-height: 50px;
+  border-radius: 50%;
+  margin: 10px 0;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.sticky-nav:hover {
+  opacity: 1;
+}
+
+.sticky-nav-home {
+  background-color: #B3B3B3;
+}
+
+.sticky-nav-profile {
+  background-color: #CC262A;
+}
+
+.sticky-nav-project {
+  background-color: #F2972D;
+}
+
+.sticky-nav-contact {
+  background-color: #20244A;
+}

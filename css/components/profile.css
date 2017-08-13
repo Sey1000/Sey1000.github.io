@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+#profile-container h3 {
+  color: #CC262A;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+#profile-container h4 {
+  color: #7D7D7D;
+}
+
+#profile-container p {
+  color: #7D7D7D;
+  opacity: 0.8;
+}
+
+#contact-container ul > li {
+  margin: 10px 20px;
+}
+
+.link-social {
+  color: #4C4C4C;
+  opacity: 0.7;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.link-social:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.link-social:visited {
+  color: #4C4C4C;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.card-section {
+  background-color: white;
+  border-radius: 5px;
+  margin: 20vh 15px;
+  padding: 20px;
+  box-shadow: 1px 1px 2px #DDD;
+  text-align: center;
+}

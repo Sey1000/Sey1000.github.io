@@ -1,12 +1,23 @@
-@import "components/nav.css";
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans:300');
+@import "components/nav.css";
+@import "components/sticky-nav.css";
+@import "components/avatar.css";
+@import "components/profile.css";
 
 body {
   background-color: #FAFBE7;
-  height: 100vh;
   font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
   font-family: 'Amatic SC', cursive;
 }
+
+.section-container {
+  height: 100vh;
+  position: relative;
+}
+
+/*red: #CC262A*/
+/*yello: #F2972D*/
+/*blue: #20244A*/

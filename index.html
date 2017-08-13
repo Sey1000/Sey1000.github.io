@@ -3,24 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="icon" type="image/x-icon" href="images/catfav.png">
   <title>Sey in Tech</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Sey Cheon</h1>
+  <div class="section-container" id="main-page-container">
+    <div class="container">
+      <h1>Sey Cheon</h1>
+    </div>
+    <a href="#profile-container">
+      <div class="circle-nav" id="nav-profile">me</div>
+    </a>
+    <a href="#">
+      <div class="circle-nav" id="nav-projects">projects</div>
+    </a>
+    <a href="#contact-container">
+      <div class="circle-nav" id="nav-contact">contact</div>
+    </a>
   </div>
-  <a href="/profile">
-  <div class="circle-nav" id="nav-profile">me</div>
-  </a>
-  <a href="#">
-    <div class="circle-nav" id="nav-projects">projects</div>
-  </a>
-  <a href="#">
-    <div class="circle-nav" id="nav-contact">contact</div>
-  </a>
+
+  <!-- profile -->
+
+  <div class="section-container" id="profile-container">
+    <div class="sticky-nav-container">
+      <a href="#">
+        <div class="sticky-nav sticky-nav-home"></div>
+      </a>
+      <a href="#profile-container">
+        <div class="sticky-nav sticky-nav-profile"></div>
+      </a>
+      <a href="#">
+        <div class="sticky-nav sticky-nav-project"></div>
+      </a>
+      <a href="#contact-container">
+        <div class="sticky-nav sticky-nav-contact"></div>
+      </a>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 col-xl-2 col-xl-offset-5">
+        <div class="card-section">
+          <img class="avatar" src="images/ProfileSquare.jpg">
+          <h3>Sey Cheon</h3>
+          <h4>Rails Fullstack Developer</h4>
+          <p>Former orchestra violist, currently training in Le Wagon to become a fullstack developer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- contact -->
+
+  <div class="section-container" id="contact-container">
+    <div class="sticky-nav-container">
+      <a href="#">
+        <div class="sticky-nav sticky-nav-home"></div>
+      </a>
+      <a href="#profile-container">
+        <div class="sticky-nav sticky-nav-profile"></div>
+      </a>
+      <a href="#">
+        <div class="sticky-nav sticky-nav-project"></div>
+      </a>
+      <a href="#contact-container">
+        <div class="sticky-nav sticky-nav-contact"></div>
+      </a>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 col-xl-2 col-xl-offset-5">
+        <div class="card-section">
+          <ul class="list-inline">
+            <li>
+              <a href="https://github.com/Sey1000" target="_blank" class="link-social">
+                <i class="fa fa-github fa-2x"></i><br>
+                <p>Github</p>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com" target="_blank" class="link-social">
+                <i class="fa fa-linkedin fa-2x"></i><br>
+                <p>Linkedin</p>
+              </a>          
+            </li>
+            <li>
+              <a href="https://twitter.com/seywhaat" target="_blank" class="link-social">
+                <i class="fa fa-twitter fa-2x"></i><br>
+                <p>Twitter</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
