@@ -7,6 +7,7 @@
 body {
   background-color: #FAFBE7;
   font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -16,6 +17,12 @@ h1 {
 .section-container {
   height: 100vh;
   position: relative;
+}
+
+.footer {
+  text-align: right;
+  padding: 0 30px;
+  margin: 0;
 }
 
 /*red: #CC262A*/
